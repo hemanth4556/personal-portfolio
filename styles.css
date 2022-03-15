@@ -507,6 +507,9 @@ section{
   }
   }
   
+.home .text-two span{
+    color: orange;
+  }
   @media (max-width: 500px){
     .home .text-two{
       font-size: 55px;
