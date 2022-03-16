@@ -564,8 +564,26 @@ section{
     .contact .text{
       width: 100%;
   }
+}
+
+  @media (max-width: 500px){
+    .home .text-two{
+      font-size: 55px;
+    }
+    .home .text-three{
+      font-size: 33px;
+    }
+    .skills-details .boxes .per{
+      font-size: 50px;
+      color: #4070f4;
+    }
+    
   }
-  
+
+
+
+
+
 
   .home .text-two span{
     color: transparent;
@@ -589,24 +607,6 @@ section{
     animation: expand 0.5s ease forwards;
   }
   
-
-  @media (max-width: 500px){
-    .home .text-two{
-      font-size: 55px;
-    }
-    .home .text-three{
-      font-size: 33px;
-    }
-    .skills-details .boxes .per{
-      font-size: 50px;
-      color: #4070f4;
-    }
-    
-  }
-
-
-
-
 
 
 
