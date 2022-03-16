@@ -256,6 +256,8 @@ section{
   section .button{
     margin: 16px 0;
   }
+
+
   section .button button{
     outline: none;
     padding: 8px 16px;
@@ -306,24 +308,50 @@ section{
     justify-content: space-between;
   }
   .skills-details .box{
-    width: calc(100% / 2 - 20px);
+    width: calc(100% / 3 - 20px);
     margin: 20px 0;
+
+    box-shadow: 20px 20px 60px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+
+    
+    padding:5%;
+    text-align: center;
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 0.5s;
   }
   .skills-details .boxes .topic{
-    font-size: 20px;
+    font-size: 30px;
     color: #4070f4;
+    padding: 10px;
   }
   .skills-details .boxes .per{
-    font-size: 60px;
+    font-size: 15px;
     color: #4070f4;
+    padding: 10px;
   }
   
+  .skills .boxes .box:hover{
+    background: #afafaf;
+    color: #fff;
+  }
+
   /* My Services CSS */
   .services .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .services .boxes .box{
     margin: 20px 0;
     width: calc(100% / 3 - 20px);
@@ -376,6 +404,35 @@ section{
     text-align: center;
     margin: auto;
   }
+
+  
+
+
+  section .mailbutton{
+    margin: 16px 0;
+  }
+  section .mailbutton button a{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #4070f4;
+    color: #fff;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  
+  section .mailbutton button a:hover{
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+  }
+
+
+
+
   
   /* Footer CSS */
   footer{
@@ -396,6 +453,8 @@ section{
   footer .text span a:hover{
     text-decoration: underline;
   }
+
+
   /* Scroll TO Top Button CSS */
   .scroll-button a{
     position: fixed;
@@ -432,7 +491,7 @@ section{
     }
     .services .boxes .box{
       margin: 20px 0;
-      width: calc(100% / 2 - 20px);
+      width: calc(100% / 3 - 20px);
     }
   }
   @media (max-width: 900px) {
@@ -522,4 +581,10 @@ section{
       color: #4070f4;
     }
   }
-  
+
+
+
+
+
+
+
