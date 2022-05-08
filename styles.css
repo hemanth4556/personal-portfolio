@@ -409,7 +409,17 @@ section{
 
 
   section .mailbutton button a{
-    outline: none;
+    
+  }
+  
+  section .mailbutton button a:hover{
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+  }
+
+.cbutton{
+outline: none;
     padding: 8px 16px;
     border-radius: 4px;
     font-size: 25px;
@@ -419,15 +429,7 @@ section{
     border: 2px solid transparent;
     cursor: pointer;
     transition: all 0.4s ease;
-  }
-  
-  section .mailbutton button a:hover{
-    border-color: #4070f4;
-    background-color: #fff;
-    color: #4070f4;
-  }
-
-
+}
 
 
   
