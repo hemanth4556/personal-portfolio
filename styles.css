@@ -408,15 +408,7 @@ section{
   
 
 
-  section .mailbutton button a{
-    
-  }
-  
-  section .mailbutton button a:hover{
-    border-color: #4070f4;
-    background-color: #fff;
-    color: #4070f4;
-  }
+
 
 .cbutton{
 outline: none;
@@ -431,6 +423,11 @@ outline: none;
     transition: all 0.4s ease;
 }
 
+cbutton a:hover{
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+  }
 
   
   /* Footer CSS */
