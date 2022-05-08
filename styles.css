@@ -408,9 +408,6 @@ section{
   
 
 
-  section .mailbutton{
-    margin: 16px 0;
-  }
   section .mailbutton button a{
     outline: none;
     padding: 8px 16px;
